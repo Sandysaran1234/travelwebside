@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>travel webside1</title>
+    <link rel="stylesheet" href="travelhome.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="main">தமிழ்<span>நாடு</span></div>
+            <div class="nav-border">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">our package</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text">
+            <h1>தமிழகத்திற்கு <span>வரவேற்கிறோம்</span></h1>
+            <p>தமிழ்நாடு சுற்றுலா இந்தியாவின் கலாச்சார தலைநகரான தமிழ்நாட்டின்<br>ஒளிவீசும் மகிமையால் இதயத்தில் இளமையாக உணருங்கள்</p>
+            <div class="btn">
+                <button onclick="gotolink(this)" value="file:///home/saran/Desktop/index.html/travel2.html#">Get start</button>
+            </div>
+        </div>
+        <div class="main-image">
+            <img src="/home/saran/Desktop/web/practice portal/image/Thanjavur_Barathanatiya_Dancing_Doll_drawing_prev_ui.png">
+        </div>
+    </header>
+
+    <script>
+        function gotolink(link){
+            console.log(link.value);
+            location.href='file:///home/saran/Desktop/index.html/travel2.html#';
+        }
+    </script>
+    
+</body>
+</html>
